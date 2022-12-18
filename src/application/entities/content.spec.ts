@@ -15,7 +15,7 @@ describe('Notification Content', () => {
 
   it('should not be able to create a notification content with more than 240 caracters', () => {
     expect(() => {
-      new Content('v'.repeat(241));
+      new Content('c'.repeat(241));
     }).toThrow();
   });
 });
